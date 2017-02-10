@@ -1,0 +1,139 @@
+1486731355336	geckodriver	INFO	Listening on 127.0.0.1:51668
+1486731357571	mozprofile::profile	INFO	Using profile path C:\Users\bradl\AppData\Local\Temp\rust_mozprofile.fykCwuEXFwGR
+1486731357602	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1486731357649	geckodriver::marionette	INFO	Connecting to Marionette on localhost:51675
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+1486731364106	Marionette	INFO	Listening on port 51675
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: this.browserForTab is undefined
+Full stack: hasRemotenessChange@chrome://marionette/content/browser.js:233:9
+executeWhenReady@chrome://marionette/content/browser.js:264:9
+GeckoDriver.prototype.sendAsync@chrome://marionette/content/driver.js:218:5
+send/<@chrome://marionette/content/proxy.js:138:7
+send@chrome://marionette/content/proxy.js:105:12
+ownPriorityGetterTrap.get/<@chrome://marionette/content/proxy.js:24:25
+GeckoDriver.prototype.execute_@chrome://marionette/content/driver.js:869:16
+GeckoDriver.prototype.executeScript@chrome://marionette/content/driver.js:787:27
+TaskImpl_run@resource://gre/modules/Task.jsm:319:40
+TaskImpl@resource://gre/modules/Task.jsm:280:3
+createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:254:14
+Task_spawn@resource://gre/modules/Task.jsm:168:12
+TaskImpl_handleResultValue@resource://gre/modules/Task.jsm:388:16
+TaskImpl_run@resource://gre/modules/Task.jsm:327:13
+TaskImpl@resource://gre/modules/Task.jsm:280:3
+createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:254:14
+Task_spawn@resource://gre/modules/Task.jsm:168:12
+Dispatcher.prototype.execute@chrome://marionette/content/dispatcher.js:117:13
+Dispatcher.prototype.onPacket@chrome://marionette/content/dispatcher.js:88:5
+DebuggerTransport.prototype._onJSONObjectReady/<@chrome://marionette/content/server.js -> resource://devtools/shared/transport/transport.js:482:11
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+
+*************************
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: this.browserForTab is undefined
+Full stack: hasRemotenessChange@chrome://marionette/content/browser.js:233:9
+executeWhenReady@chrome://marionette/content/browser.js:264:9
+GeckoDriver.prototype.sendAsync@chrome://marionette/content/driver.js:218:5
+send/<@chrome://marionette/content/proxy.js:138:7
+send@chrome://marionette/content/proxy.js:105:12
+ownPriorityGetterTrap.get/<@chrome://marionette/content/proxy.js:24:25
+GeckoDriver.prototype.execute_@chrome://marionette/content/driver.js:869:16
+GeckoDriver.prototype.executeScript@chrome://marionette/content/driver.js:787:27
+TaskImpl_run@resource://gre/modules/Task.jsm:319:40
+TaskImpl@resource://gre/modules/Task.jsm:280:3
+createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:254:14
+Task_spawn@resource://gre/modules/Task.jsm:168:12
+TaskImpl_handleResultValue@resource://gre/modules/Task.jsm:388:16
+TaskImpl_run@resource://gre/modules/Task.jsm:327:13
+TaskImpl@resource://gre/modules/Task.jsm:280:3
+createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:254:14
+Task_spawn@resource://gre/modules/Task.jsm:168:12
+Dispatcher.prototype.execute@chrome://marionette/content/dispatcher.js:117:13
+Dispatcher.prototype.onPacket@chrome://marionette/content/dispatcher.js:88:5
+DebuggerTransport.prototype._onJSONObjectReady/<@chrome://marionette/content/server.js -> resource://devtools/shared/transport/transport.js:482:11
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+
+*************************
+*************************
+A coding exception was thrown in a Promise rejection callback.
+See https://developer.mozilla.org/Mozilla/JavaScript_code_modules/Promise.jsm/Promise
+
+Full message: TypeError: this.browserForTab is undefined
+Full stack: hasRemotenessChange@chrome://marionette/content/browser.js:233:9
+executeWhenReady@chrome://marionette/content/browser.js:264:9
+GeckoDriver.prototype.sendAsync@chrome://marionette/content/driver.js:218:5
+send/<@chrome://marionette/content/proxy.js:138:7
+send@chrome://marionette/content/proxy.js:105:12
+ownPriorityGetterTrap.get/<@chrome://marionette/content/proxy.js:24:25
+GeckoDriver.prototype.execute_@chrome://marionette/content/driver.js:869:16
+GeckoDriver.prototype.executeScript@chrome://marionette/content/driver.js:787:27
+TaskImpl_run@resource://gre/modules/Task.jsm:319:40
+TaskImpl@resource://gre/modules/Task.jsm:280:3
+createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:254:14
+Task_spawn@resource://gre/modules/Task.jsm:168:12
+TaskImpl_handleResultValue@resource://gre/modules/Task.jsm:388:16
+TaskImpl_run@resource://gre/modules/Task.jsm:327:13
+TaskImpl@resource://gre/modules/Task.jsm:280:3
+createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:254:14
+Task_spawn@resource://gre/modules/Task.jsm:168:12
+Dispatcher.prototype.execute@chrome://marionette/content/dispatcher.js:117:13
+Dispatcher.prototype.onPacket@chrome://marionette/content/dispatcher.js:88:5
+DebuggerTransport.prototype._onJSONObjectReady/<@chrome://marionette/content/server.js -> resource://devtools/shared/transport/transport.js:482:11
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+
+*************************
+Marionette threw an error: TypeError: this.browserForTab is undefined
+hasRemotenessChange@chrome://marionette/content/browser.js:233:9
+executeWhenReady@chrome://marionette/content/browser.js:264:9
+GeckoDriver.prototype.sendAsync@chrome://marionette/content/driver.js:218:5
+send/<@chrome://marionette/content/proxy.js:138:7
+send@chrome://marionette/content/proxy.js:105:12
+ownPriorityGetterTrap.get/<@chrome://marionette/content/proxy.js:24:25
+GeckoDriver.prototype.execute_@chrome://marionette/content/driver.js:869:16
+GeckoDriver.prototype.executeScript@chrome://marionette/content/driver.js:787:27
+TaskImpl_run@resource://gre/modules/Task.jsm:319:40
+TaskImpl@resource://gre/modules/Task.jsm:280:3
+createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:254:14
+Task_spawn@resource://gre/modules/Task.jsm:168:12
+TaskImpl_handleResultValue@resource://gre/modules/Task.jsm:388:16
+TaskImpl_run@resource://gre/modules/Task.jsm:327:13
+TaskImpl@resource://gre/modules/Task.jsm:280:3
+createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:254:14
+Task_spawn@resource://gre/modules/Task.jsm:168:12
+Dispatcher.prototype.execute@chrome://marionette/content/dispatcher.js:117:13
+Dispatcher.prototype.onPacket@chrome://marionette/content/dispatcher.js:88:5
+DebuggerTransport.prototype._onJSONObjectReady/<@chrome://marionette/content/server.js -> resource://devtools/shared/transport/transport.js:482:11
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+
+1486731432854	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1486731432855	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1486731603164	geckodriver	INFO	Listening on 127.0.0.1:51761
+1486731605273	mozprofile::profile	INFO	Using profile path C:\Users\bradl\AppData\Local\Temp\rust_mozprofile.B6QXOPcGb2HH
+1486731605273	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1486731605335	geckodriver::marionette	INFO	Connecting to Marionette on localhost:51767
+1486731643057	geckodriver::marionette	ERROR	Failed to kill browser process
+1486731772302	geckodriver	INFO	Listening on 127.0.0.1:51837
+1486731774389	mozprofile::profile	INFO	Using profile path C:\Users\bradl\AppData\Local\Temp\rust_mozprofile.Ha9NH8LYhxcn
+1486731774405	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1486731774420	geckodriver::marionette	INFO	Connecting to Marionette on localhost:51843
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+1486731777034	Marionette	INFO	Listening on port 51843
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+1486731782456	Marionette	WARN	Using deprecated data structure for setting timeouts
+1486732246653	geckodriver	INFO	Listening on 127.0.0.1:52082
+1486732248635	mozprofile::profile	INFO	Using profile path C:\Users\bradl\AppData\Local\Temp\rust_mozprofile.QV7tIh4svJHC
+1486732248649	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1486732248661	geckodriver::marionette	INFO	Connecting to Marionette on localhost:52088
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+1486732252006	Marionette	INFO	Listening on port 52088
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+1486732257949	Marionette	WARN	Using deprecated data structure for setting timeouts
